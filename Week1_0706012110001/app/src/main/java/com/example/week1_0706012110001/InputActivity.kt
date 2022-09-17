@@ -19,7 +19,7 @@ class InputActivity : AppCompatActivity() {
     private lateinit var viewBind:ActivityInputBinding
     private lateinit var hewan: Hewan
     private var imageUris: String = ""
-    private var position = -10
+    private var position = -1
 
     private val GetResult =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
