@@ -21,7 +21,6 @@ class InputActivity : AppCompatActivity() {
     private var imageUris: String = ""
     private var position = -1
 
-
     private val GetResult =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
             if (it.resultCode == Activity.RESULT_OK) {   // APLIKASI GALLERY SUKSES MENDAPATKAN IMAGE
