@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="#171717">
+    android:background="#000000">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_launcher_foreground" />
+                app:srcCompat="@drawable/farmpic" />
 
             <TextView
                 android:id="@+id/namahewan"
@@ -61,6 +61,7 @@
                 android:id="@+id/editbutton"
                 android:layout_width="65dp"
                 android:layout_height="32dp"
+                android:backgroundTint="#1E39E9"
                 android:text="Edit"
                 android:textSize="9sp"
                 app:layout_constraintBottom_toBottomOf="@+id/gambarhewan"
@@ -73,6 +74,7 @@
                 android:layout_height="32dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="130dp"
+                android:backgroundTint="#EC0909"
                 android:text="Delete"
                 android:textSize="9sp"
                 app:layout_constraintBottom_toBottomOf="@+id/editbutton"
